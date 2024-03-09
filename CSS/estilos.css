@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(../IMG/pexels-photo-443446.jpeg);
+    background-size: auto;
+    background-position: top; /**bootom| right|left| top**/
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+#menu-bar {
+background-color: blanchedalmond;
+text-align: center;
+}
+#menu-bar ul {
+display: inline-flex;
+}
+#menu-bar ul li {
+padding: 20px;
+white-space: 155px;
+list-style: none;
+}
+#menu-bar ul li a {
+    text-decoration: none;
+    color: brown;
+}
+#menu-bar ul li:hover {
+    background-color: rgb(204, 155, 95);
+    border-radius: 20px;
+}
